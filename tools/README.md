@@ -10,7 +10,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 5. pysimm
 6. [SMiPoly](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00329?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
 7. SPACIER
-8. PEMD
+8. [PEMD](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d5dd00454c)
 9. [PySoftK](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01849?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
 
 ## Force Field Parameterization
