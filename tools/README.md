@@ -23,4 +23,5 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 1. [G-BigSMILES 2.0](https://meetings-archive.aps.org/smt/2026/mar-h00-10/40/)
 2. [PolyJarvis](https://arxiv.org/abs/2604.02537)
 3. [MDCROW](https://arxiv.org/pdf/2502.09565v1)
+4. [Polymer-Agent](https://webofscience.clarivate.cn/wos/woscc/full-record/WOS:001752517000001)
 
