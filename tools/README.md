@@ -8,6 +8,10 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 3. Material Studio
 4. [RadonPy](https://www.nature.com/articles/s41524-022-00906-4)
 5. pysimm
+6. [SMiPoly](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00329?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
+7. SPACIER
+8. PEMD
+9. [PySoftK](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01849?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
 
 ## Force Field Parameterization
 1. Soptop
