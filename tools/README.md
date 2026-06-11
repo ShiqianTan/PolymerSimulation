@@ -8,7 +8,6 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 3. Material Studio
 4. [RadonPy](https://www.nature.com/articles/s41524-022-00906-4)
 5. pysimm
-6. [PolyJarvis](https://arxiv.org/abs/2604.02537)
 
 ## Force Field Parameterization
 1. Soptop
@@ -18,4 +17,6 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 ## Automatic AI Agent Workflow for molecular dynamic simulation
 
 1. [G-BigSMILES 2.0](https://meetings-archive.aps.org/smt/2026/mar-h00-10/40/)
+2. [PolyJarvis](https://arxiv.org/abs/2604.02537)
+3. [MDCROW](https://arxiv.org/pdf/2502.09565v1)
 
