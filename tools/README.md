@@ -14,3 +14,8 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 2. LigPargen
 3. [PolyPargen](https://www.jstage.jst.go.jp/article/jccjie/5/0/5_2018-0034/_article)
 
+## Automatic AI Agent Workflow for molecular dynamic simulation
+
+1. [G-BigSMILES 2.0](https://meetings-archive.aps.org/smt/2026/mar-h00-10/40/)
+2. 
+
