@@ -12,6 +12,8 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 7. SPACIER
 8. [PEMD](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d5dd00454c)
 9. [PySoftK](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01849?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
+10. Polymer-Agent (2026)
+11. ToPolyAgent (2026)
 
 ## Force Field Parameterization
 1. Soptop
