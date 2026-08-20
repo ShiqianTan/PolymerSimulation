@@ -14,6 +14,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 9. [PySoftK](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01849?src=getftr&utm_source=clarivate&getft_integrator=clarivate)
 10. Polymer-Agent (2026)
 11. ToPolyAgent (2026)
+12. [MolPy](https://doi.org/10.1021/acs.jcim.6c01137)
 
 ## Force Field Parameterization
 1. Soptop
