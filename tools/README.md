@@ -15,6 +15,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 10. Polymer-Agent (2026)
 11. ToPolyAgent (2026)
 12. [MolPy](https://doi.org/10.1021/acs.jcim.6c01137)
+13. [SimPoly](https://arxiv.org/abs/2510.13696) (2025)
 
 ## Force Field Parameterization
 1. Soptop
