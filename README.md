@@ -4,6 +4,8 @@ A personal knowledge base for polymer simulation resources, papers, tutorials, s
 
 This repository is intended to organize practical notes and reusable materials for polymer simulation work, including molecular dynamics workflows, force fields, analysis scripts, literature notes, and tool references.
 
+However, literature-reported MD results differ from uniformly generated computational databases because simulation outcomes can vary substantially with the chosen force field, model representation, polymer chemistry, and simulation protocol
+
 ## Repository Map
 
 - `papers/` - literature notes, reading lists, and citation collections.
