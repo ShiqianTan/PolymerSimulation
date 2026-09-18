@@ -12,6 +12,11 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 7. United Atoms (UA)
 8. Coarsed-Grained (GC)
 
+## machine-learning force fields (MLFFs)
+- SimPoly
+- On-the-fly machine learning JCIM, 2026
+- How long is enough? JCTC, 2026
+
 ## Simulation Software
 1. Gromacs
 2. Lammps
