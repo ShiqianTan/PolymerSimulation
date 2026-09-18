@@ -2,6 +2,11 @@
 
 Use this folder for literature notes, reading lists, citation collections, and short paper summaries related to polymer simulation.
 
+## VIP Paper
+
+1. High-Throughput Molecular Dynamics Simulations and Validation of Thermophysical Properties of Polymers for Various Applications, ACS Appl. Polym. Mater. (2021) 3 (2): 620–630., https://doi.org/10.1021/acsapm.0c00524
+2. Paudel, A., Shakya, A., Nag, S. et al. A structured dataset of polymers in molecular dynamics simulations extracted by LLM-assisted text mining. Sci Data (2026). https://doi.org/10.1038/s41597-026-08045-x
+
 ## High-Citation and Classic Reading List
 
 Citation counts are approximate screening signals, because Google Scholar, ACS, Scopus, Crossref, OUCI, and other databases use different coverage. Counts below were checked from publicly visible pages on 2026-05-20.
