@@ -9,6 +9,8 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 4. PCFF4
 5. GROMOS
 6. COMPASS
+7. United Atoms (UA)
+8. Coarsed-Grained (GC)
 
 ## Simulation Software
 1. Gromacs
