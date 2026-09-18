@@ -2,6 +2,14 @@
 
 Use this folder for notes about simulation software, analysis packages, utilities, installation steps, and configuration tips.
 
+## Classical Force Fields
+1. Amber1
+2. CHARMM2
+3. OPLS
+4. PCFF4
+5. GROMOS
+6. COMPASS
+
 ## Simulation Software
 1. Gromacs
 2. Lammps
