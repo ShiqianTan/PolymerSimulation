@@ -11,6 +11,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 6. COMPASS
 7. United Atoms (UA)
 8. Coarsed-Grained (GC)
+9. ReaxFF
 
 ## machine-learning force fields (MLFFs)
 - SimPoly
@@ -31,6 +32,9 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 11. ToPolyAgent (2026)
 12. [MolPy](https://doi.org/10.1021/acs.jcim.6c01137)
 13. [SimPoly](https://arxiv.org/abs/2510.13696) (2025)
+14. NAMD
+15. CHARMM
+16. MARTINI
 
 ## Force Field Parameterization
 1. Soptop
