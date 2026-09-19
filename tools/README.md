@@ -17,6 +17,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 - SimPoly
 - n-the-Fly Machine-Learned Force Fields for High-Fidelity Polymer Glass Transition Simulations， JCIM, 2026
 - How long is enough? JCTC, 2026
+- Active Learning of a Neural Network Potential for Large-Scale Atomistic Simulations of Polymer Electrolyte Membranes, J. Phys. Chem. B (2026) 130 (36): 9326–9337. https://doi.org/10.1021/acs.jpcb.6c04744
 
 ## Simulation Software
 1. Gromacs
