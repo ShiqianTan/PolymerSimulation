@@ -15,7 +15,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 
 ## machine-learning force fields (MLFFs)
 - SimPoly
-- On-the-fly machine learning JCIM, 2026
+- n-the-Fly Machine-Learned Force Fields for High-Fidelity Polymer Glass Transition Simulations， JCIM, 2026
 - How long is enough? JCTC, 2026
 
 ## Simulation Software
@@ -35,6 +35,17 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 14. NAMD
 15. CHARMM
 16. MARTINI
+17. PolyRapid: automated high-throughput screening of polymers using a computational workflow， Aug 26 2026 SOFT MATTER
+18.  Glass Transition Prediction of Binary Copolymers Across Large Chemical Spaces Using Machine Learning and Physics-Based Modeling， Jul 14 2026 POLYMERS
+19.  How Long Is Long Enough? Extrapolation of Machine-Learning Interatomic Potentials for Oligomeric and Polymeric Systems， Jul 14 2026 JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+20.  From oligomers to entangled polymers: How to train a transferable machine learning interatomic potential
+21.  ADEPT-PolyGraphMT: automated molecular simulation and multi-task multi-fidelity machine learning for polymer property generation and prediction， Jul 1 2026 DIGITAL DISCOVERY
+22.  Atomistic Polymer Modeling: Recent Advances and Challenges in Building and Parametrization Workflows， Nov 11 2025 MACROMOLECULES
+23.  Dissipative Particle Dynamics Modeling in Polymer Science and Engineering， Apr 15 2025 WILEY INTERDISCIPLINARY REVIEWS-COMPUTATIONAL MOLECULAR SCIENCE
+24.  Rapid, Accurate and Reproducible Prediction of the Glass Transition Temperature Using Ensemble-Based Molecular Dynamics Simulation， Jan 29 2025 JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+25.  SPACIER: on-demand polymer design with fully automated all-atom classical molecular dynamics integrated into machine learning pipelines， Jan 28 2025 NPJ COMPUTATIONAL MATERIALS
+26.  
+
 
 ## Force Field Parameterization
 1. Soptop
