@@ -45,7 +45,7 @@ Use this folder for notes about simulation software, analysis packages, utilitie
 23.  Dissipative Particle Dynamics Modeling in Polymer Science and Engineering， Apr 15 2025 WILEY INTERDISCIPLINARY REVIEWS-COMPUTATIONAL MOLECULAR SCIENCE
 24.  Rapid, Accurate and Reproducible Prediction of the Glass Transition Temperature Using Ensemble-Based Molecular Dynamics Simulation， Jan 29 2025 JOURNAL OF CHEMICAL THEORY AND COMPUTATION
 25.  SPACIER: on-demand polymer design with fully automated all-atom classical molecular dynamics integrated into machine learning pipelines， Jan 28 2025 NPJ COMPUTATIONAL MATERIALS
-26.  
+26.  PolyGraphPy, 2026, computational material science.
 
 
 ## Force Field Parameterization
