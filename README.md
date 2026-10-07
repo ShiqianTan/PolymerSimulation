@@ -22,7 +22,7 @@ Representative starting points from the 2026 catalog. Follow a category link for
 | --- | --- | --- |
 | Polymer representation and data | BigSMILES · G-BigSMILES · CG-BigSMILES · PolyDAT · psmiles | [Browse](tools/catalog.md#representation-identifiers-and-data) |
 | Informatics, prediction, and generation | polyBERT · PolyMetriX · Polymer Genome · SMiPoly · PolyGraphMT · PolyGraphPy | [Browse](tools/catalog.md#polymer-informatics-property-prediction-and-generation) |
-| Structure building and assembly | PSP · CHARMM-GUI Polymer Builder · polyply · PolyConstruct · SwiftPol · HTPolyNet | [Browse](tools/catalog.md#polymer-structure-builders-and-molecular-assembly) |
+| Structure building and assembly | PSP · CHARMM-GUI Polymer Builder · polyply · PolyConstruct · SwiftPol · MolPy · HTPolyNet | [Browse](tools/catalog.md#polymer-structure-builders-and-molecular-assembly) |
 | Automated polymer simulation and design | RadonPy · PEMD · ADEPT · SPACIER · PolyRapid | [Browse](tools/catalog.md#automated-simulation-and-design-workflows) |
 | ML force fields and agents | SimPoly / Vivace · PolyJarvis · CGMas | [Browse](tools/catalog.md#machine-learned-force-fields-and-agentic-systems) |
 | Force fields and topology tools | PolyParGen · Q-Force · foyer · GMSO · LigParGen · ParmEd | [Browse](tools/catalog.md#force-field-parameterization-and-topology-interoperability) |
