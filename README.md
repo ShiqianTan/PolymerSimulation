@@ -1,6 +1,6 @@
 # Polymer Simulation
 
-**A practical knowledge base for molecular simulation of polymers.** Find literature, workflows, software notes, and reusable scripts for building and analyzing polymer models.
+**A practical knowledge base for molecular simulation of polymers.** Find curated literature, force-field guidance, simulation software, and polymer modeling workflows.
 
 [PDF build workflow](https://github.com/ShiqianTan/PolymerSimulation/actions/workflows/makefile.yml)
 
@@ -11,10 +11,7 @@
 | I want to… | Go to |
 | --- | --- |
 | Find foundational papers and a suggested reading path | [Literature](papers/README.md) |
-| Learn a simulation workflow | [Tutorials](tutorials/README.md) |
 | Compare simulation packages and parameterization tools | [Tools](tools/README.md) |
-| Find or contribute scripts and reproducible examples | [Scripts](scripts/README.md) |
-| Browse datasets, templates, and external references | [Resources](resources/README.md) |
 | Read the complete guide as a book | [Download the PDF](PolymerSimulation.pdf) |
 
 ## What’s covered
@@ -32,10 +29,7 @@
 | Directory | Contents |
 | --- | --- |
 | [`papers/`](papers/README.md) | Reading lists, literature notes, and citation collections |
-| [`tutorials/`](tutorials/README.md) | Step-by-step workflows and simulation recipes |
-| [`scripts/`](scripts/README.md) | Reusable scripts, prototypes, and reproducible examples |
 | [`tools/`](tools/README.md) | Software, utilities, installation, and configuration notes |
-| [`resources/`](resources/README.md) | Links, datasets, benchmarks, and templates |
 
 ## Build the PDF
 
@@ -49,4 +43,4 @@ See `make help` for available targets. The PDF is also built automatically on pu
 
 ## Contributing
 
-Add material to the directory that best fits its purpose. Keep notes concise, link claims to their sources, and include dependencies and example usage with scripts. When adding a new Markdown chapter, add it to `SOURCES` in the `Makefile` so it appears in the PDF.
+Add material to `papers/` or `tools/` where it fits. Keep notes concise, link claims to their sources, and include dependencies and example usage when adding code. When adding a new Markdown chapter, add it to `SOURCES` in the `Makefile` so it appears in the PDF.

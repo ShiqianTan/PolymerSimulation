@@ -12,13 +12,10 @@ DATE        := $(shell date +%Y-%m-%d)
 SOURCES := \
 	README.md \
 	papers/README.md \
-	tutorials/README.md \
-	scripts/README.md \
-	tools/README.md \
-	resources/README.md
+	tools/README.md
 
 # Search path for images/assets in any subfolder
-RESOURCE_PATH := .:papers:tutorials:scripts:tools:resources
+RESOURCE_PATH := .:papers:tools
 
 PANDOC_FLAGS := \
 	--pdf-engine=$(PDF_ENGINE) \
