@@ -15,11 +15,10 @@ SOURCES := \
 	tutorials/README.md \
 	scripts/README.md \
 	tools/README.md \
-	code/README.md \
 	resources/README.md
 
 # Search path for images/assets in any subfolder
-RESOURCE_PATH := .:papers:tutorials:scripts:tools:code:resources
+RESOURCE_PATH := .:papers:tutorials:scripts:tools:resources
 
 PANDOC_FLAGS := \
 	--pdf-engine=$(PDF_ENGINE) \
@@ -37,7 +36,7 @@ PANDOC_FLAGS := \
 	--metadata title="Polymer Simulation Knowledge Base" \
 	--metadata author="ShiqianTan" \
 	--metadata date="$(DATE)" \
-	--highlight-style=tango \
+	--syntax-highlighting=tango \
 	-V header-includes="\usepackage{booktabs}\usepackage{longtable}\usepackage{array}"
 
 .PHONY: all clean check-deps install-deps help

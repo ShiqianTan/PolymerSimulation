@@ -1,30 +1,52 @@
-# PolymerSimulation
+# Polymer Simulation
 
-A personal knowledge base for polymer simulation resources, papers, tutorials, scripts, tools, and code.
+**A practical knowledge base for molecular simulation of polymers.** Find literature, workflows, software notes, and reusable scripts for building and analyzing polymer models.
 
-This repository is intended to organize practical notes and reusable materials for polymer simulation work, including molecular dynamics workflows, force fields, analysis scripts, literature notes, and tool references.
+[PDF build workflow](https://github.com/ShiqianTan/PolymerSimulation/actions/workflows/makefile.yml)
 
-However, literature-reported MD results differ from uniformly generated computational databases because simulation outcomes can vary substantially with the chosen force field, model representation, polymer chemistry, and simulation protocol
+> From atomistic models to coarse-grained melts: a growing, source-linked reference for reproducible polymer simulation.
 
-## Repository Map
+## Start here
 
-- `papers/` - literature notes, reading lists, and citation collections.
-- `tutorials/` - step-by-step workflows and learning notes.
-- `scripts/` - reusable scripts for setup, simulation, analysis, and visualization.
-- `tools/` - notes about software, packages, utilities, and configuration.
-- `code/` - project code, prototypes, and reproducible examples.
-- `resources/` - links, datasets, templates, and miscellaneous references.
+| I want to… | Go to |
+| --- | --- |
+| Find foundational papers and a suggested reading path | [Literature](papers/README.md) |
+| Learn a simulation workflow | [Tutorials](tutorials/README.md) |
+| Compare simulation packages and parameterization tools | [Tools](tools/README.md) |
+| Find or contribute scripts and reproducible examples | [Scripts](scripts/README.md) |
+| Browse datasets, templates, and external references | [Resources](resources/README.md) |
+| Read the complete guide as a book | [Download the PDF](PolymerSimulation.pdf) |
 
-## Topics
+## What’s covered
 
-- Polymer molecular dynamics
-- Coarse-grained and atomistic models
-- Force field selection and parameterization
-- LAMMPS, GROMACS, RadonPy, and related tools
-- Structure generation and equilibration workflows
-- Trajectory analysis and property prediction
-- Reproducible simulation pipelines
+- **Models:** atomistic, united-atom, and coarse-grained polymer systems
+- **Methods:** force-field selection, parameterization, equilibration, and multiscale modeling
+- **Applications:** melts, glassy polymers, electrolytes, and nanocomposites
+- **Tools:** LAMMPS, GROMACS, RadonPy, and related packages
+- **Analysis:** chain statistics, dynamics, entanglement, and material properties
 
-## Notes
+> Literature-reported MD results can differ from uniformly generated computational datasets because outcomes depend on the force field, model representation, polymer chemistry, and simulation protocol.
 
-Keep entries concise, reproducible, and source-linked whenever possible. For scripts and code, include basic usage notes and dependencies near the file.
+## Repository map
+
+| Directory | Contents |
+| --- | --- |
+| [`papers/`](papers/README.md) | Reading lists, literature notes, and citation collections |
+| [`tutorials/`](tutorials/README.md) | Step-by-step workflows and simulation recipes |
+| [`scripts/`](scripts/README.md) | Reusable scripts, prototypes, and reproducible examples |
+| [`tools/`](tools/README.md) | Software, utilities, installation, and configuration notes |
+| [`resources/`](resources/README.md) | Links, datasets, benchmarks, and templates |
+
+## Build the PDF
+
+The PDF combines the Markdown guides into one document. Install [Pandoc](https://pandoc.org/) and XeLaTeX, then run:
+
+```sh
+make
+```
+
+See `make help` for available targets. The PDF is also built automatically on pushes and pull requests to `main`.
+
+## Contributing
+
+Add material to the directory that best fits its purpose. Keep notes concise, link claims to their sources, and include dependencies and example usage with scripts. When adding a new Markdown chapter, add it to `SOURCES` in the `Makefile` so it appears in the PDF.
