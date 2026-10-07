@@ -11,8 +11,10 @@ DATE        := $(shell date +%Y-%m-%d)
 # Chapter order: root intro first, then subject folders
 SOURCES := \
 	README.md \
-	papers/README.md \
-	tools/README.md
+	tools/README.md \
+	tools/catalog.md \
+	tools/reference.md \
+	papers/README.md
 
 # Search path for images/assets in any subfolder
 RESOURCE_PATH := .:papers:tools

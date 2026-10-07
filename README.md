@@ -1,46 +1,35 @@
 # Polymer Simulation
 
-**A practical knowledge base for molecular simulation of polymers.** Find curated literature, force-field guidance, simulation software, and polymer modeling workflows.
+A source-linked field guide to polymer informatics and molecular simulation, from representing polymer ensembles to building, parameterizing, simulating, and analyzing them.
 
-[PDF build workflow](https://github.com/ShiqianTan/PolymerSimulation/actions/workflows/makefile.yml)
+## Start with a task
 
-> From atomistic models to coarse-grained melts: a growing, source-linked reference for reproducible polymer simulation.
-
-## Start here
-
-| I want to… | Go to |
+| If you need to… | Start here |
 | --- | --- |
-| Find foundational papers and a suggested reading path | [Literature](papers/README.md) |
-| Compare simulation packages and parameterization tools | [Tools](tools/README.md) |
-| Read the complete guide as a book | [Download the PDF](PolymerSimulation.pdf) |
+| Find a package by workflow stage or compare 78 tools | [Tool catalog](tools/catalog.md) |
+| Choose builders, force fields, MD engines, or analysis workflows | [Practical tools guide](tools/README.md) |
+| Read papers by topic and follow a suggested path | [Literature guide](papers/README.md) |
+| Read the guides as one document | [PDF](PolymerSimulation.pdf) |
 
-## What’s covered
+## Scope
 
-- **Models:** atomistic, united-atom, and coarse-grained polymer systems
-- **Methods:** force-field selection, parameterization, equilibration, and multiscale modeling
-- **Applications:** melts, glassy polymers, electrolytes, and nanocomposites
-- **Tools:** LAMMPS, GROMACS, RadonPy, and related packages
-- **Analysis:** chain statistics, dynamics, entanglement, and material properties
+This repository covers polymer representations and datasets; structure construction; force-field assignment and coarse graining; atomistic, coarse-grained, and quantum calculations; workflow automation; trajectory analysis; and polymer-focused machine learning and agent systems. The catalog distinguishes polymer-native projects from general software that supports polymer work.
 
-> Literature-reported MD results can differ from uniformly generated computational datasets because outcomes depend on the force field, model representation, polymer chemistry, and simulation protocol.
+Simulation results depend on chemistry, representation, parameterization, system preparation, and protocol. A software package or force-field family alone does not establish that a particular polymer model is validated.
 
 ## Repository map
 
-| Directory | Contents |
+| Path | Purpose |
 | --- | --- |
-| [`papers/`](papers/README.md) | Reading lists, literature notes, and citation collections |
-| [`tools/`](tools/README.md) | Software, utilities, installation, and configuration notes |
+| [`tools/README.md`](tools/README.md) | Navigation and practical selection guidance |
+| [`tools/catalog.md`](tools/catalog.md) | Source-linked inventory organized by workflow stage |
+| [`tools/reference.md`](tools/reference.md) | Force-field notes, workflows, and detailed software/paper descriptions |
+| [`papers/README.md`](papers/README.md) | Reading lists, citation collections, and literature notes |
 
-## Build the PDF
+## Build
 
-The PDF combines the Markdown guides into one document. Install [Pandoc](https://pandoc.org/) and XeLaTeX, then run:
+The PDF combines these Markdown guides. With Pandoc and XeLaTeX installed, run `make`. The same build runs through [GitHub Actions](https://github.com/ShiqianTan/PolymerSimulation/actions/workflows/makefile.yml).
 
-```sh
-make
-```
+## Contribute
 
-See `make help` for available targets. The PDF is also built automatically on pushes and pull requests to `main`.
-
-## Contributing
-
-Add material to `papers/` or `tools/` where it fits. Keep notes concise, link claims to their sources, and include dependencies and example usage when adding code. When adding a new Markdown chapter, add it to `SOURCES` in the `Makefile` so it appears in the PDF.
+Keep tool claims linked to primary project or publication sources. Label preprints and software-only entries clearly, and include version, parameter set, validation, and protocol details when documenting reproducible calculations. Add new Markdown chapters to `SOURCES` in the Makefile.
