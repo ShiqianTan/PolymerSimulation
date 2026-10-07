@@ -79,6 +79,17 @@ This catalog maps the tools in the supplied 2026 literature matrix to the stage 
 | PolyJarvis | Natural-language-to-polymer-MD agent using MCP servers and RadonPy/EMC/LAMMPS | A / Core | [PolyJarvis: LLM Agent for Autonomous Polymer MD Simulations (2026)](https://arxiv.org/abs/2604.02537) |
 | CGMas | Automate AA topology, equilibration, AA→CG mapping, potential derivation and validation from natural language | A / Core | [A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers (2026)](https://arxiv.org/abs/2608.06694) |
 
+### Related polymer MLFF papers
+
+These research papers describe MLFF methods and applications; they are listed separately from software packages and agents.
+
+| Paper | Focus | Source |
+| --- | --- | --- |
+| On-the-Fly Machine-Learned Force Fields for High-Fidelity Polymer Glass Transition Simulations (2026) | Adds first-principles calculations when configurations leave the model's confidence domain; applies the adaptive workflow to polymer glass-transition simulations. | [JCIM](https://doi.org/10.1021/acs.jcim.6c02116) · [arXiv](https://arxiv.org/abs/2601.17137) |
+| Active Learning of a Neural Network Potential for Large-Scale Atomistic Simulations of Polymer Electrolyte Membranes (2026) | Active-learning neural potential for Nafion membranes across hydration conditions and large atomistic systems. | [JPCB](https://doi.org/10.1021/acs.jpcb.6c04744) |
+| How Long Is Long Enough? Extrapolation of Machine-Learning Interatomic Potentials for Oligomeric and Polymeric Systems (2026) | Examines training oligomer size, local chemical environments, and transfer to polymeric systems. | [JCTC](https://doi.org/10.1021/acs.jctc.6c00365) |
+| From Oligomers to Entangled Polymers: How to Train a Transferable Machine Learning Interatomic Potential (2026, preprint) | Compares descriptors and active learning for polyethylene potentials trained on oligomers and evaluated on entangled polymers. | [arXiv](https://arxiv.org/abs/2608.01162) |
+
 ## Force-field parameterization and topology interoperability
 
 | Tool | Role in a workflow | Evidence / priority | Publication or project source |
