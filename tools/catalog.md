@@ -1,6 +1,6 @@
 # Polymer Informatics and Simulation Tool Catalog
 
-This catalog maps the tools in the supplied 2026 literature matrix to the stage of a polymer modeling workflow. It includes polymer-specific packages and general-purpose infrastructure used to construct, parameterize, simulate, or analyze polymer systems.
+This catalog maps the 78 tools in the supplied 2026 literature matrix to the stages of a polymer modeling workflow. It also includes selected related research papers and frameworks not listed as tools in that matrix. Entries cover polymer-specific software and general-purpose infrastructure used to construct, parameterize, simulate, or analyze polymer systems.
 
 > Scope and evidence fields are transcribed from the supplied matrix (dated 2026-10-07). Links and publication metadata should be checked against the linked project or publisher before citation or production use. A publication or project listing is not, by itself, evidence that a parameter set is valid for a target polymer.
 
@@ -34,6 +34,7 @@ This catalog maps the tools in the supplied 2026 literature matrix to the stage 
 | PolymerAI | Random polymer generation and reinforcement-learning inverse design | B / Important | [project / software source](https://github.com/RUIMINMA1996/PolymerAI); PolymerAI software release (2020) |
 | PolyGraphMT | Joint prediction of multiple polymer properties across fidelity levels | A / Core | [ADEPT-PolyGraphMT: automated molecular simulation and multi-task multi-fidelity machine learning for polymer property generation and prediction (2026)](https://doi.org/10.1039/D6DD00206D) |
 | PolyGraphPy | Automate DFTB data generation, Bayesian GNN prediction and property-guided generation | A / Core | [PolyGraphPy: A unified Python framework for atomistic simulation and machine learning-driven polymer design (2026)](https://doi.org/10.1016/j.commatsci.2026.114985) |
+| HiPoly (preprint) | Hierarchical polymer-native AI framework using G2RINS graphs for multi-component property prediction and generative design, with molecular simulations for physics-based validation | Preprint / — | [HiPoly: a hierarchical polymer-native AI framework for property prediction and generative design (2026)](https://arxiv.org/abs/2609.02746) |
 | TRI-AMDD PolyGen | GPT/diffusion-based generation of polymer electrolytes and iterative discovery | B / Important | [De novo design of polymer electrolytes with high conductivity using generative AIs (2023)](https://arxiv.org/abs/2312.06470) |
 
 ## Polymer structure builders and molecular assembly

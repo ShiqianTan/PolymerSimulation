@@ -21,7 +21,7 @@ Representative starting points from the 2026 catalog. Follow a category link for
 | Workflow stage | Quick picks | Full list |
 | --- | --- | --- |
 | Polymer representation and data | BigSMILES · G-BigSMILES · CG-BigSMILES · PolyDAT · psmiles | [Browse](tools/catalog.md#representation-identifiers-and-data) |
-| Informatics, prediction, and generation | polyBERT · PolyMetriX · Polymer Genome · SMiPoly · PolyGraphMT · PolyGraphPy | [Browse](tools/catalog.md#polymer-informatics-property-prediction-and-generation) |
+| Informatics, prediction, and generation | polyBERT · PolyMetriX · Polymer Genome · SMiPoly · PolyGraphMT · PolyGraphPy · HiPoly (preprint) | [Browse](tools/catalog.md#polymer-informatics-property-prediction-and-generation) |
 | Structure building and assembly | polyGen (3D) · PSP (Polymer Structure Predictor) · CHARMM-GUI Polymer Builder · pysimm · Polymatic · polyply · PolyConstruct · SwiftPol · PySoftK · XPB · MolPy · HTPolyNet | [Browse](tools/catalog.md#polymer-structure-builders-and-molecular-assembly) |
 | Automated polymer simulation and design | RadonPy · PEMD · ADEPT · SPACIER · PolyRapid | [Browse](tools/catalog.md#automated-simulation-and-design-workflows) |
 | ML force fields and agents | SimPoly / Vivace · PolyJarvis · CGMas | [Browse](tools/catalog.md#machine-learned-force-fields-and-agentic-systems) |
