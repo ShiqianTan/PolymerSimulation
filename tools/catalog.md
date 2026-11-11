@@ -1,6 +1,6 @@
 # Polymer Informatics and Simulation Tool Catalog
 
-This catalog maps the 78 tools in the supplied 2026 literature matrix to the stages of a polymer modeling workflow. It also includes selected related research papers and frameworks not listed as tools in that matrix. Entries cover polymer-specific software and general-purpose infrastructure used to construct, parameterize, simulate, or analyze polymer systems.
+This catalog maps the 78 tools in the supplied 2026 literature matrix to the stages of a polymer modeling workflow. It also includes selected related research papers and frameworks not listed as tools in that matrix, including tools from [Smith et al. (2026), Figure 2](figure2-md-tools.md). Entries cover polymer-specific software and general-purpose infrastructure used to construct, parameterize, simulate, or analyze polymer systems.
 
 > Scope and evidence fields are transcribed from the supplied matrix (dated 2026-10-07). Links and publication metadata should be checked against the linked project or publisher before citation or production use. A publication or project listing is not, by itself, evidence that a parameter set is valid for a target polymer.
 
@@ -47,6 +47,7 @@ This catalog maps the 78 tools in the supplied 2026 literature matrix to the sta
 | pysimm | Build, modify, parameterize and simulate molecular systems; strong amorphous-polymer support | A / Core | [pysimm: A python package for simulation of molecular systems (2017)](https://doi.org/10.1016/j.softx.2016.12.002) |
 | Polymatic | Build polymeric networks by iterative bond formation with relaxation | A / Core | [Polymatic: a generalized simulated polymerization algorithm for amorphous polymers (2013)](https://doi.org/10.1007/s00214-013-1334-z) |
 | polyply | Generate parameters and coordinates for complex macromolecular topologies at arbitrary resolution | A / Core | [Polyply; a python suite for facilitating simulations of macromolecules and nanomaterials (2022)](https://doi.org/10.1038/s41467-021-27627-4) |
+| MAD Polymer Editor | Web interface for polymer design and system setup powered by Polyply | Figure 2 / — | [MAD tutorials](https://mad.ens-lyon.fr/tutorials) · [Smith et al. (2026)](https://doi.org/10.1557/s43577-026-01202-y) |
 | pyPolyBuilder | Generate topologies and initial structures for linear and branched supramolecules | A / Important | [pyPolyBuilder: Automated Preparation of Molecular Topologies and Initial Configurations for Molecular Dynamics Simulations of Arbitrary Supramolecules (2021)](https://doi.org/10.1021/acs.jcim.0c01438) |
 | PolyConstruct | Generate polymer coordinates and topology files by adapting biomolecular simulation pipelines | A / Core | [PolyConstruct: Adapting Biomolecular Simulation Pipelines for Polymers with PolyBuild, PolyConf, and PolyTop (2025)](https://doi.org/10.1021/acs.jcim.4c02375) |
 | SwiftPol | Build and parameterize polymer systems while explicitly controlling molecular-weight distribution and sequence features | A / Core | [SwiftPol: A Python package for building and parameterizing in silico polymer systems (2025)](https://doi.org/10.21105/joss.08053) |
@@ -58,6 +59,7 @@ This catalog maps the 78 tools in the supplied 2026 literature matrix to the sta
 | Packmol | Pack molecules into simulation boxes subject to geometric constraints | A / Supporting | [PACKMOL: A package for building initial configurations for molecular dynamics simulations (2009)](https://doi.org/10.1002/jcc.21224) |
 | Assemble! | Create polymer chains from monomers and assemble solvated/mixture systems for GROMACS | A / Important | [Easy creation of polymeric systems for molecular dynamics with Assemble! (2016)](https://doi.org/10.1016/j.cpc.2015.12.026) |
 | EMC (Enhanced Monte Carlo) | Build and equilibrate atomistic polymer systems using Monte Carlo/connectivity methods | B / Important | [project / software source](https://montecarlo.sourceforge.net/emc/); Enhanced Monte Carlo polymer building software |
+| PolySMart | Grow coarse-grained polymers using reactive polymerization and produce polydisperse systems | Figure 2 / — | [PolySMart paper (2023)](https://doi.org/10.1039/D3MH00088E) · [code](https://github.com/HMakkiMD/PolySMart) |
 | XPB | High-throughput generation of linear, dendritic, hyperbranched and crosslinked polymer structures | A / Core | [XPB: an Extendable Polymer Builder for High-Throughput and High-Quality Generation of Complex Polymer Structures (2025)](https://doi.org/10.1021/acs.jctc.4c01265) |
 | HTPolyNet | Generate atomistic crosslinked polymer networks and GROMACS topology files | A / Core | [HTPolyNet: A general system generator for atomistic simulations of polymer networks (2023)](https://doi.org/10.1016/j.softx.2022.101303) |
 | Chameleon | Efficient phase-space sampling of dense realistic polymers using connectivity-altering MC moves | A / Important | [Chameleon: A generalized, connectivity altering software for tackling properties of realistic polymer systems (2019)](https://doi.org/10.1002/wcms.1414) |
@@ -71,6 +73,7 @@ This catalog maps the 78 tools in the supplied 2026 literature matrix to the sta
 | ADEPT | SMILES-to-properties high-throughput workflow combining amorphous model generation, LAMMPS and Psi4 | A / Core | [ADEPT-PolyGraphMT: automated molecular simulation and multi-task multi-fidelity machine learning for polymer property generation and prediction (2026)](https://doi.org/10.1039/D6DD00206D) |
 | SPACIER | Closed-loop/on-demand polymer design using RadonPy simulation inside Bayesian optimization | A / Core | [SPACIER: on-demand polymer design with fully automated all-atom classical molecular dynamics integrated into machine learning pipelines (2025)](https://doi.org/10.1038/s41524-024-01492-3) |
 | PolyRapid | Automated polymer melt equilibration and high-throughput screening with convergence criteria | A / Core | [PolyRapid: automated high-throughput screening of polymers using a computational workflow (2026)](https://doi.org/10.1039/D6SM00265J) |
+| GAMERS | Equilibrate polymer melts via Kuhn-scale mapping and restrained backmapping | Figure 2 / — | [GAMERS paper (2026)](https://doi.org/10.1021/acs.jctc.5c01332) · [code](https://github.com/webbtheosim/GAMERS) |
 
 ## Machine-learned force fields and agentic systems
 
@@ -99,6 +102,7 @@ These research papers describe MLFF methods and applications; they are listed se
 | PolyParGen | Generate MD force-field parameters for polymer repeat structures and convert oligomer parameters to polymer form | A / Core | [Development of PolyParGen Software to Facilitate the Determination of Molecular Dynamics Simulation Parameters for Polymers (2019)](https://doi.org/10.2477/jccjie.2018-0034) |
 | Q-Force | Derive bonded parameters and charges from QM while retaining transferable nonbonded terms | A / Core | [Q-Force: Quantum Mechanically Augmented Molecular Force Fields (2021)](https://doi.org/10.1021/acs.jctc.1c00195) |
 | foyer | Define, disseminate and apply force-field atom-typing rules reproducibly | A / Important | [Formalizing atom-typing and the dissemination of force fields with foyer (2019)](https://doi.org/10.1016/j.commatsci.2019.05.026) · [code](https://github.com/mosdef-hub/foyer) · [docs](https://foyer.mosdef.org) |
+| DL_FIELD | Assign classical force fields and generate input files for supported MD engines | Figure 2 / — | [DL_FIELD project](https://www.ccp5.ac.uk/dl_field/) · [Smith et al. (2026)](https://doi.org/10.1557/s43577-026-01202-y) |
 | GMSO | Engine-agnostic storage and conversion of molecular topology and force-field information | B / Important | [project / software source](https://github.com/mosdef-hub/gmso); GMSO software / MoSDeF ecosystem · [code](https://github.com/mosdef-hub/gmso) · [docs](https://gmso.mosdef.org) |
 | OpenFF Toolkit | Assign modern small-molecule force fields and manipulate chemical topologies; polymer support evolving | B / Important | [project / software source](https://github.com/openforcefield/openff-toolkit); Open Force Field Initiative software · [code](https://github.com/openforcefield/openff-toolkit) · [docs](https://docs.openforcefield.org/projects/toolkit/) |
 | OpenFF Interchange | Convert parameterized systems between OpenFF and simulation engines | B / Supporting | [project / software source](https://github.com/openforcefield/openff-interchange); OpenFF Interchange software · [code](https://github.com/openforcefield/openff-interchange) · [docs](https://docs.openforcefield.org/projects/interchange/) |
@@ -145,6 +149,8 @@ These research papers describe MLFF methods and applications; they are listed se
 | --- | --- | --- | --- |
 | signac | Manage parameter spaces, jobs and simulation data in high-throughput computational studies | A / Supporting | [signac: A Python framework for data and workflow management (2018)](https://doi.org/10.1016/j.commatsci.2018.01.035) · [code](https://github.com/glotzerlab/signac) · [docs](https://signac.io) |
 | signac-flow | Define and submit reproducible simulation workflows on local/HPC schedulers | B / Supporting | [project / software source](https://github.com/glotzerlab/signac-flow); signac-flow software · [code](https://github.com/glotzerlab/signac-flow) · [docs](https://signac.readthedocs.io/projects/flow/) |
+| flowerMD | Compose reusable molecular dynamics workflows and recipes | Figure 2 / — | [flowerMD docs](https://flowermd.readthedocs.io/en/latest/) · [code](https://github.com/cmelab/flowerMD) |
+| AiiDA | Run workflows while recording data provenance and calculation metadata | Figure 2 / — | [AiiDA docs](https://aiida.net/docs/) · [Smith et al. (2026)](https://doi.org/10.1557/s43577-026-01202-y) |
 
 ## Quantum and electronic-structure tools
 

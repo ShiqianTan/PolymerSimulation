@@ -2,6 +2,10 @@
 
 Use this page to choose a starting point. The [tool catalog](catalog.md) lists all 78 entries from the 2026 matrix by workflow stage; the [detailed reference](reference.md) has practical notes on force fields, engines, selected workflows, and literature.
 
+## Focused reading
+
+- [Smith et al. (2026), Figure 2: MD toolchain](figure2-md-tools.md) — 19 figure entries for model building, force-field assignment, equilibration, and workflow management, with source references and project links.
+
 ## Follow the workflow
 
 | Stage | What to look for | Catalog section |
