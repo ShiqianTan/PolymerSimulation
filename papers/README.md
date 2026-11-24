@@ -8,7 +8,7 @@ Use this folder for literature notes, reading lists, citation collections, and s
 2. Paudel, A., Shakya, A., Nag, S. et al. A structured dataset of polymers in molecular dynamics simulations extracted by LLM-assisted text mining. Sci Data (2026). https://doi.org/10.1038/s41597-026-08045-x
 3. Macromolecules (2019) 52 (3): 755–786. https://doi.org/10.1021/acs.macromol.8b01836, Modeling and Simulations of Polymers: A Roadmap
 4. Chew, A.K., Afzal, M.A.F., Kaplan, Z. et al. Leveraging high-throughput molecular simulations and machine learning for the design of chemical mixtures. npj Comput Mater 11, 72 (2025). https://doi.org/10.1038/s41524-025-01552-2
-5. Atomistic polymer modeling: Recent advances and challenges in building and parametrization workflows， HN Turney, M Matta - Macromolecules, 2025 
+5. Atomistic polymer modeling: Recent advances and challenges in building and parametrization workflows, HN Turney, M Matta - Macromolecules, 2025
 
 ## Benchmark
 1. Benchmarking Classical Molecular Dynamics Simulations for Computational Screening of Lithium Polymer Electrolytes, Macromolecules (2025) 58 (13): 6732–6742. https://doi.org/10.1021/acs.macromol.5c00930
@@ -68,4 +68,4 @@ Citation counts are approximate screening signals, because Google Scholar, ACS, 
 
 - Add BibTeX entries in papers/bib/.
 - Add one Markdown note per paper in papers/notes/.
-- Add a separate list for polymer crystallization, cross-linked polymers/epoxy, polymer membranes, and LAMMPS/RadonPy-specific workflows.
+- Add separate lists for polymer crystallization, cross-linked polymers/epoxy, and polymer membranes. The local LAMMPS/RadonPy workflows are now indexed in the [local MD workspace inventory](../tools/local-md-inventory.md).

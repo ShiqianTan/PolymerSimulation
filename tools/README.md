@@ -5,6 +5,7 @@ Use this page to choose a starting point. The [tool catalog](catalog.md) lists a
 ## Focused reading
 
 - [Smith et al. (2026), Figure 2: MD toolchain](figure2-md-tools.md) — 19 figure entries for model building, force-field assignment, equilibration, and workflow management, with source references and project links.
+- [Local MD workspace inventory](local-md-inventory.md) — task-oriented summary of the PolyJarvis, POLY-CP-TL, RadonPy, PySIMM, LammpsPoly, and LAMMPS tutorial material under `/Users/shiqian/Documents/project/md`, including provenance and migration cautions.
 
 ## Follow the workflow
 

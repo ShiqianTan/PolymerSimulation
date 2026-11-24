@@ -13,6 +13,8 @@ SOURCES := \
 	README.md \
 	tools/README.md \
 	tools/catalog.md \
+	tools/figure2-md-tools.md \
+	tools/local-md-inventory.md \
 	tools/reference.md \
 	papers/README.md
 

@@ -11,6 +11,7 @@ A source-linked field guide to polymer informatics and molecular simulation, fro
 | Scan tools by workflow stage | [Quick catalog below](#tool-finder) |
 | Compare all 78 tools, sources, and evidence levels | [Full tool catalog](tools/catalog.md) |
 | Choose builders, force fields, MD engines, or analysis workflows | [Practical tools guide](tools/README.md) |
+| Browse the local MD tools, tasks, examples, and generated assets | [Local MD workspace inventory](tools/local-md-inventory.md) |
 | Read papers by topic and follow a suggested path | [Literature guide](papers/README.md) |
 | Read the guides as one document | [PDF](PolymerSimulation.pdf) |
 
